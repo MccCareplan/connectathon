@@ -1,7 +1,6 @@
 {
     "resourceType": "Bundle",
-    "type": "searchset",
-    "total": 6,
+    "type": "transaction",
     "entry": [
         {
             "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/open/Practitioner/cc-prac-smith-julie",
@@ -44,18 +43,16 @@
                     }
                 ]
             },
-            "search": {
-                "mode": "match"
+            "request": {
+                "method": "PUT",
+                "url": "Practitioner/cc-prac-smith-julie"
             }
         },
         {
-            "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/open/Practitioner/cc-prac-carlson-john",
             "resource": {
                 "resourceType": "Practitioner",
                 "id": "cc-prac-carlson-john",
                 "meta": {
-                    "versionId": "1",
-                    "lastUpdated": "2020-04-08T20:25:40.000+00:00",
                     "profile": [
                         "http://hl7.org/fhir/StructureDefinition/Practitioner"
                     ]
@@ -89,18 +86,16 @@
                     }
                 ]
             },
-            "search": {
-                "mode": "match"
+            "request": {
+                "method": "PUT",
+                "url": "Practitioner/cc-prac-carlson-john"
             }
         },
         {
-            "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/open/Practitioner/cc-prac-jones-vince",
             "resource": {
                 "resourceType": "Practitioner",
                 "id": "cc-prac-jones-vince",
                 "meta": {
-                    "versionId": "1",
-                    "lastUpdated": "2020-04-08T20:25:40.000+00:00",
                     "profile": [
                         "http://hl7.org/fhir/StructureDefinition/Practitioner"
                     ]
@@ -134,18 +129,16 @@
                     }
                 ]
             },
-            "search": {
-                "mode": "match"
+            "request": {
+                "method": "PUT",
+                "url": "Practitioner/cc-prac-jones-vince"
             }
         },
         {
-            "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/open/Practitioner/cc-prac-gonzalez-maria",
             "resource": {
                 "resourceType": "Practitioner",
                 "id": "cc-prac-gonzalez-maria",
                 "meta": {
-                    "versionId": "1",
-                    "lastUpdated": "2020-04-08T20:25:40.000+00:00",
                     "profile": [
                         "http://hl7.org/fhir/StructureDefinition/Practitioner"
                     ]
@@ -179,12 +172,12 @@
                     }
                 ]
             },
-            "search": {
-                "mode": "match"
+            "request": {
+                "method": "PUT",
+                "url": "Practitioner/cc-prac-gonzalez-maria"
             }
         },
         {
-            "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/open/Practitioner/cc-prac-johnson-sam",
             "resource": {
                 "resourceType": "Practitioner",
                 "id": "cc-prac-johnson-sam",
@@ -224,18 +217,16 @@
                     }
                 ]
             },
-            "search": {
-                "mode": "match"
+            "request": {
+                "method": "PUT",
+                "url": "Practitioner/cc-prac-johnson-sam"
             }
         },
         {
-            "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/open/Practitioner/cc-prac-walkowski-ellen",
             "resource": {
                 "resourceType": "Practitioner",
                 "id": "cc-prac-walkowski-ellen",
                 "meta": {
-                    "versionId": "1",
-                    "lastUpdated": "2020-04-08T20:25:40.000+00:00",
                     "profile": [
                         "http://hl7.org/fhir/StructureDefinition/Practitioner"
                     ]
@@ -269,8 +260,9 @@
                     }
                 ]
             },
-            "search": {
-                "mode": "match"
+            "request": {
+                "method": "PUT",
+                "url": "Practitioner/cc-prac-walkowski-ellen"
             }
         }
     ]

@@ -1,19 +1,11 @@
 {
     "resourceType": "Bundle",
-    "total": 2,
+    "type": "transaction",
     "entry": [
         {
-            "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/open/CarePlan/cc-careplan-pnoelle-ckd",
             "resource": {
                 "resourceType": "CarePlan",
                 "id": "cc-careplan-pnoelle-ckd",
-                "meta": {
-                    "versionId": "1",
-                    "lastUpdated": "2020-04-08T20:25:51.000+00:00",
-                    "profile": [
-                        "http://hl7.org/fhir/StructureDefinition/CarePlan"
-                    ]
-                },
                 "text": {
                     "status": "generated",
                     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Pat's CKD care plan</div>"
@@ -89,22 +81,15 @@
                     }
                 ]
             },
-            "search": {
-                "mode": "match"
+            "request": {
+                "method": "PUT",
+                "url": "CarePlan/cc-careplan-pnoelle-ckd"
             }
         },
         {
-            "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/open/CarePlan/cc-careplan-pnoelle-personal",
             "resource": {
                 "resourceType": "CarePlan",
                 "id": "cc-careplan-pnoelle-personal",
-                "meta": {
-                    "versionId": "1",
-                    "lastUpdated": "2020-04-08T20:25:51.000+00:00",
-                    "profile": [
-                        "http://hl7.org/fhir/StructureDefinition/CarePlan"
-                    ]
-                },
                 "text": {
                     "status": "generated",
                     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Pat's personal care plan</div>"
@@ -244,8 +229,9 @@
                     }
                 ]
             },
-            "search": {
-                "mode": "match"
+            "request": {
+                "method": "PUT",
+                "url": "CarePlan/cc-careplan-pnoelle-personal"
             }
         }
     ]
