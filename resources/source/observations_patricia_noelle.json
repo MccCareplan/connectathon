@@ -187,8 +187,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-bp-2",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:45.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/StructureDefinition/vitalsigns"
 					]
@@ -464,8 +462,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-bp-4",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:45.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/StructureDefinition/vitalsigns"
 					]
@@ -561,8 +557,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-bp-3",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:45.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/StructureDefinition/vitalsigns"
 					]
@@ -658,8 +652,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-height",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:46.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/StructureDefinition/vitalsigns"
 					]
@@ -716,8 +708,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-bmi",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:46.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/StructureDefinition/vitalsigns"
 					]
@@ -775,8 +765,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-weight",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:46.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/StructureDefinition/vitalsigns"
 					]
@@ -833,8 +821,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-weight-2",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:46.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/StructureDefinition/vitalsigns"
 					]
@@ -891,8 +877,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-weight-1",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:46.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/StructureDefinition/vitalsigns"
 					]
@@ -949,8 +933,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-lab-a1c-1",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:47.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
 					]
@@ -1008,8 +990,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-lab-a1c",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:47.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
 					]
@@ -1067,8 +1047,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-lab-a1c-6",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:47.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
 					]
@@ -1126,8 +1104,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-lab-a1c-4",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:47.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
 					]
@@ -1185,8 +1161,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-lab-a1c-5",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:47.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
 					]
@@ -1244,8 +1218,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-lab-a1c-2",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:47.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
 					]
@@ -1303,8 +1275,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-lab-a1c-3",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:47.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
 					]
@@ -1362,8 +1332,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-lab-egfr-5",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:48.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
 					]
@@ -1421,8 +1389,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-lab-egfr",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:48.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
 					]
@@ -1480,8 +1446,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-lab-egfr-4",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:48.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
 					]
@@ -1539,8 +1503,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-lab-egfr-3",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:48.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
 					]
@@ -1598,8 +1560,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-lab-egfr-2",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:48.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
 					]
@@ -1657,8 +1617,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-lab-egfr-1",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:48.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
 					]
@@ -1716,8 +1674,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-lab-glucose-2",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:49.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
 					]
@@ -1787,8 +1743,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-lab-glucose-1",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:49.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
 					]
@@ -1858,8 +1812,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-lab-phos",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:49.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
 					]
@@ -1917,8 +1869,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-lab-triglycerides",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:49.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
 					]
@@ -1988,8 +1938,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-lab-uacr",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:49.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
 					]
@@ -2047,8 +1995,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-lab-glucose",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:49.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
 					]
@@ -2118,8 +2064,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-lab-ldlc",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:49.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
 					]
@@ -2189,8 +2133,6 @@
 				"resourceType": "Observation",
 				"id": "cc-obs-pnoelle-lab-hdlc",
 				"meta": {
-					"versionId": "1",
-					"lastUpdated": "2020-04-08T20:25:49.000+00:00",
 					"profile": [
 						"http://hl7.org/fhir/us/core/StructureDefinition/us-core-observationresults"
 					]
