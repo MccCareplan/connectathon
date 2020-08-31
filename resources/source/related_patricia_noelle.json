@@ -1,26 +1,18 @@
 {
     "resourceType": "Bundle",
-    "total": 1,
+    "type": "transaction",
     "entry": [
         {
-            "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/open/RelatedPerson/cc-pat-pnoelle-related-daughter",
             "resource": {
                 "resourceType": "RelatedPerson",
                 "id": "cc-pat-pnoelle-related-daughter",
-                "meta": {
-                    "versionId": "1",
-                    "lastUpdated": "2020-04-08T20:25:41.000+00:00",
-                    "profile": [
-                        "http://hl7.org/fhir/StructureDefinition/RelatedPerson"
-                    ]
-                },
                 "text": {
                     "status": "generated",
                     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">RelatedPerson Daughter</div>"
                 },
                 "patient": {
                     "reference": "Patient/cc-pat-pnoelle",
-                    "display": "Betsy Johnson"
+                    "display": "Patrica Noelle"
                 },
                 "relationship": [
                     {
@@ -57,8 +49,9 @@
                 ],
                 "gender": "female"
             },
-            "search": {
-                "mode": "match"
+            "request": {
+               "method": "PUT",
+							 "url": "RelatedPerson/cc-pat-pnoelle-related-daughter"
             }
         }
     ]
