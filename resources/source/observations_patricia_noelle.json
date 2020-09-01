@@ -692,7 +692,7 @@
 					}
 				],
 				"valueQuantity": {
-					"value": 64,
+					"value": 63,
 					"unit": "in",
 					"system": "http://unitsofmeasure.org",
 					"code": "[in_i]"
@@ -1373,7 +1373,7 @@
 					}
 				],
 				"valueQuantity": {
-					"value": 33,
+					"value": 28,
 					"unit": "mL/min/1.73m2",
 					"system": "http://unitsofmeasure.org/",
 					"code": "mL/min/{1.73_m2}"

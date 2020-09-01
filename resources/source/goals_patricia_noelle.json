@@ -456,6 +456,150 @@
 				"method": "PUT",
 				"url": "Goal/cc-goal-pnoelle-dance"
 			}
+		},
+		{
+			"resource": {
+				"resourceType": "Goal",
+				"id": "cc-goal-pnoelle-avoid_dialysis",
+				"lifecycleStatus": "active",
+				"achievementStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/goal-achievement",
+							"code": "in-progress",
+							"display": "In Progress"
+						}
+					],
+					"text": "In Progress"
+				},
+				"priority": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/goal-priority",
+							"code": "high-priority",
+							"display": "High Priority"
+						}
+					],
+					"text": "High Priority"
+				},
+				"description": {
+					"text": "Control diabetes to avoid dialysis"
+				},
+				"subject": {
+					"reference": "Patient/cc-pat-pnoelle"
+				},
+				"startDate": "2015-10-30",
+				"expressedBy": {
+					"reference": "Patient/cc-pat-pnoelle",
+					"display": "Patricia Noelle"
+				},
+				"note": [
+					{
+						"text": "I want to control my diabetes and don't want to end up on dialysis like my parents"
+					}
+				]
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Goal/cc-goal-pnoelle-avoid_dialysis"
+			}
+		},
+			{
+			"resource": {
+				"resourceType": "Goal",
+				"id": "cc-goal-pnoelle-avoid_narcotics",
+				"lifecycleStatus": "active",
+				"achievementStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/goal-achievement",
+							"code": "in-progress",
+							"display": "In Progress"
+						}
+					],
+					"text": "In Progress"
+				},
+				"priority": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/goal-priority",
+							"code": "medium-priority",
+							"display": "Medium Priority"
+						}
+					],
+					"text": "Medium Priority"
+				},
+				"description": {
+					"text": "Avoid addiction to narcotics"
+				},
+				"subject": {
+					"reference": "Patient/cc-pat-pnoelle"
+				},
+				"startDate": "2015-10-30",
+				"expressedBy": {
+					"reference": "Patient/cc-pat-pnoelle",
+					"display": "Patricia Noelle"
+				},
+				"note": [
+					{
+						"text": "I don't want to be addicted to narcotics and want to take less narcotics to control my pain"
+					}
+				]
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Goal/cc-goal-pnoelle-avoid_narcotics"
+			}
+		},
+			{
+			"resource": {
+				"resourceType": "Goal",
+				"id": "cc-goal-pnoelle-more_active",
+				"lifecycleStatus": "active",
+				"achievementStatus": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/goal-achievement",
+							"code": "in-progress",
+							"display": "In Progress"
+						}
+					],
+					"text": "In Progress"
+				},
+				"priority": {
+					"coding": [
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/goal-priority",
+							"code": "medium-priority",
+							"display": "Medium Priority"
+						}
+					],
+					"text": "Medium Priority"
+				},
+				"description": {
+					"text": "Stay as Active and Healthy as possible"
+				},
+				"subject": {
+					"reference": "Patient/cc-pat-pnoelle"
+				},
+				"startDate": "2015-10-30",
+				"expressedBy": {
+					"reference": "Patient/cc-pat-pnoelle",
+					"display": "Patricia Noelle"
+				},
+				"note": [
+					{
+						"text": "I want to stay as healthy as much as is possible so I can be more active and engage with my grandchildren"
+					}
+				]
+			},
+			"request": {
+				"method": "PUT",
+				"url": "Goal/cc-goal-pnoelle-more_active""
+			}
 		}
 	]
 }
+
+
+
