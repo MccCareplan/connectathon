@@ -1,11 +1,11 @@
 # connectathon
 Multiple chronic condition careplan connectathon demo data
 
-#Directories
+# Directories
 - /resource - The core connectathon resources
 - /scripts - Scripts for loading resources
 
-#Resources
+# Resources
 
 - basicsetup_bundle.json - Setups up background information like providers (For systems without the cc providers)
 - load_patrica_noelle_bundle.json - Loads the basic data about patrica noelle, include careplan, goals, conditions, etc.
@@ -14,8 +14,8 @@ Multiple chronic condition careplan connectathon demo data
 - update_ckd_condtiton_bundle.json - Transactional bundle handle scenario 3 careplan and condition update
 - remove_patrica_noelle_bundle.json - 
 
-#Scripts
+# Scripts
 
 
-#Endpoint
+# Endpoint
 - Logica Sandbox (Open): https://api.logicahealth.org/MCCeCarePlanTest/open
