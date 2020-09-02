@@ -15,6 +15,9 @@ Multiple chronic condition careplan connectathon demo data
 - remove_patrica_noelle_bundle.json - 
 
 # Scripts
+- loadvaluesets.sh - Used to load the CKD Values Sets
+- patrica_noelle_setup.sh - Used to load the Patricia Noelle Persona
+- providersetup.sh - Used to load the providers referenced (Same set a Betsy Johnson)
 
 
 # Endpoint
