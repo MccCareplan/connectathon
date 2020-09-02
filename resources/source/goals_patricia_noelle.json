@@ -460,7 +460,7 @@
 		{
 			"resource": {
 				"resourceType": "Goal",
-				"id": "cc-goal-pnoelle-avoid_dialysis",
+				"id": "cc-goal-pnoelle-avoid-dialysis",
 				"lifecycleStatus": "active",
 				"achievementStatus": {
 					"coding": [
@@ -501,7 +501,7 @@
 			},
 			"request": {
 				"method": "PUT",
-				"url": "Goal/cc-goal-pnoelle-avoid_dialysis"
+				"url": "Goal/cc-goal-pnoelle-avoid-dialysis"
 			}
 		},
 			{
@@ -548,13 +548,13 @@
 			},
 			"request": {
 				"method": "PUT",
-				"url": "Goal/cc-goal-pnoelle-avoid_narcotics"
+				"url": "Goal/cc-goal-pnoelle-avoid-narcotics"
 			}
 		},
 			{
 			"resource": {
 				"resourceType": "Goal",
-				"id": "cc-goal-pnoelle-more_active",
+				"id": "cc-goal-pnoelle-more-active",
 				"lifecycleStatus": "active",
 				"achievementStatus": {
 					"coding": [
@@ -595,7 +595,7 @@
 			},
 			"request": {
 				"method": "PUT",
-				"url": "Goal/cc-goal-pnoelle-more_active""
+				"url": "Goal/cc-goal-pnoelle-more-active"
 			}
 		}
 	]
