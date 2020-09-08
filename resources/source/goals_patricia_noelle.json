@@ -56,7 +56,8 @@
 							"unit": "%",
 							"system": "http://unitsofmeasure.org/",
 							"code": "%"
-						}
+						},
+						"dueDate": "2020-11-10"
 					}
 				],
 				"expressedBy": {
@@ -141,7 +142,8 @@
 								"system": "http://unitsofmeasure.org",
 								"code": "mg/dL"
 							}
-						}
+						},
+						"dueDate": "2020-11-10"
 					}
 				],
 				"expressedBy": {
@@ -221,7 +223,8 @@
 							"unit": "mmHg",
 							"system": "http://unitsofmeasure.org",
 							"code": "mm[Hg]"
-						}
+						},
+						"dueDate": "2019-09-22"
 					}
 				],
 				"expressedBy": {
@@ -284,7 +287,8 @@
 							"unit": "mmHg",
 							"system": "http://unitsofmeasure.org",
 							"code": "mm[Hg]"
-						}
+						},
+						"dueDate": "2019-09-22"
 					}
 				],
 				"expressedBy": {
@@ -504,7 +508,7 @@
 				"url": "Goal/cc-goal-pnoelle-avoid-dialysis"
 			}
 		},
-			{
+		{
 			"resource": {
 				"resourceType": "Goal",
 				"id": "cc-goal-pnoelle-avoid_narcotics",
@@ -551,7 +555,7 @@
 				"url": "Goal/cc-goal-pnoelle-avoid-narcotics"
 			}
 		},
-			{
+		{
 			"resource": {
 				"resourceType": "Goal",
 				"id": "cc-goal-pnoelle-more-active",
@@ -600,6 +604,3 @@
 		}
 	]
 }
-
-
-
