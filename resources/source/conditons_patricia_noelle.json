@@ -198,7 +198,7 @@
 			}
 		},
 		{
-			resource: {
+			"resource": {
 				"resourceType": "Condition",
 				"id": "cc-cond-pnoelle-sedentary",
 				"text": {
