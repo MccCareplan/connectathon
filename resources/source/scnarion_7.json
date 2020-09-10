@@ -1,0 +1,96 @@
+{
+    "resourceType": "CarePlan",
+    "id": "cc-careplan-pnoelle-ckd",
+    "meta": {
+        "versionId": "6",
+        "lastUpdated": "2020-09-10T15:40:14.000+00:00",
+        "source": "#YVbuQinJXApbAHLE"
+    },
+    "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Pat's CKD care plan</div>"
+    },
+    "status": "active",
+    "intent": "plan",
+    "title": "CKD Care Plan",
+    "description": "Care plan to slow progression of CKD and Type 4 Diabetes.",
+    "subject": {
+        "reference": "Patient/cc-pat-pnoelle"
+    },
+    "period": {
+        "start": "2018-06-01"
+    },
+    "author": {
+        "reference": "Practitioner/cc-prac-jones-vince",
+        "display": "Dr. Vince Jones, MD"
+    },
+    "careTeam": [
+        {
+            "reference": "CareTeam/cc-team-pnoelle"
+        }
+    ],
+    "addresses": [
+        {
+            "reference": "Condition/cc-cond-pnoelle-diabetes"
+        },
+        {
+            "reference": "Condition/cc-cond-pnoelle-ckd4"
+        }
+    ],
+    "supportingInfo": [
+        {
+            "reference": "Condition/cc-cond-pnoelle-ckd"
+        },
+        {
+            "reference": "Condition/cc-cond-pnoelle-ckd3"
+        }
+    ],
+    "goal": [
+        {
+            "reference": "Goal/cc-goal-pnoelle-bp-systolic"
+        },
+        {
+            "reference": "Goal/cc-goal-pnoelle-lab-phos"
+        },
+        {
+            "reference": "Goal/cc-goal-pnoelle-a1c"
+        }
+    ],
+    "activity": [
+        {
+            "reference": {
+                "reference": "ServiceRequest/cc-service-pnoelle-edu-ckd"
+            }
+        },
+        {
+            "outcomeReference": [
+                {
+                    "reference": "Observation/cc-obs-pnoelle-weight-2"
+                }
+            ],
+            "reference": {
+                "reference": "ServiceRequest/cc-service-pnoelle-edu-diet"
+            }
+        },
+        {
+            "reference": {
+                "reference": "ServiceRequest/cc-service-pnoelle-exercise"
+            }
+        },
+        {
+            "reference": {
+                "reference": "ServiceRequest/cc-service-pnoelle-steps"
+            }
+        },
+        {
+            "reference": {
+                "reference": "MedicationRequest/cc-med-pnoelle-vitamin-d"
+            }
+        },
+        {
+            "reference": {
+                "reference": "MedicationRequest/cc-med-pnoelle-insulin"
+            }
+        }
+    ]
+}
