@@ -76,7 +76,7 @@
 			{
 			"resource": {
 				"resourceType": "Condition",
-				"id": "cc-cond-pnoelle-ckd",
+				"id": "cc-cond-pnoelle-ckd4",
 				"text": {
 					"status": "generated",
 					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Chronic kidney disease</div>"
