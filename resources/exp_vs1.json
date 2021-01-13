@@ -1,0 +1,44 @@
+{
+    "resourceType": "ValueSet",
+    "id": "2.16.840.1.113762.1.4.1222.159",
+    "meta": {
+        "versionId": "8",
+        "lastUpdated": "2020-08-25T19:09:54.000+00:00",
+        "source": "#EC3mVnFyzhdQ3VJG"
+    },
+    "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1222.159",
+    "identifier": [
+        {
+            "system": "urn:ietf:rfc:3986",
+            "value": "2.16.840.1.113762.1.4.1222.159"
+        }
+    ],
+    "version": "20200817",
+    "name": "Codes for Chronic kidney disease",
+    "status": "active",
+    "experimental": false,
+    "date": "2020-08-18",
+    "publisher": "MCC Project team",
+    "description": "This is an example value set that includes all the codes for Chronic kidney disease from SNOMED and ICD-10",
+    "compose": {
+        "include": [
+            {
+                "system": "http://snomed.info/sct",
+                "concept": [
+                    {
+                        "code": "709044004",
+                        "display": "Chronic kidney disease (disorder)"
+                    },
+                    {
+                        "code": "433144002",
+                        "display": "Chronic kidney disease stage 3 (disorder)"
+                    },
+                    {
+                        "code": "431857002",
+                        "display": "Chronic kidney disease stage 4 (disorder)"
+                    }
+                ]
+            }
+        ]
+    }
+}

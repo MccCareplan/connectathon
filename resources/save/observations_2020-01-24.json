@@ -1,0 +1,295 @@
+{
+    "resourceType": "Bundle",
+    "id": "935094a5-b8d4-4457-a92b-8a50a2d47432",
+    "meta": {
+        "lastUpdated": "2021-01-13T23:48:06.518+00:00"
+    },
+    "type": "searchset",
+    "total": 4,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://api.logicahealth.org/MCCeCarePlanTest/open/Observation/?date=2020-01-24&patient=cc-pat-pnoelle"
+        }
+    ],
+    "entry": [
+        {
+            "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/open/Observation/cc-obs-pnoelle-lab-hdlc-2001",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "cc-obs-pnoelle-lab-hdlc-2001",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2021-01-12T23:16:42.000+00:00",
+                    "source": "#J4BX45gp2uRuUwnn"
+                },
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "2085-9",
+                            "display": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/cc-pat-pnoelle"
+                },
+                "effectiveDateTime": "2020-01-24",
+                "performer": [
+                    {
+                        "reference": "Practitioner/cc-prac-carlson-john",
+                        "display": "Dr. John Carlson, MD"
+                    }
+                ],
+                "valueQuantity": {
+                    "value": 49,
+                    "unit": "mg/dL",
+                    "system": "http://unitsofmeasure.org/",
+                    "code": "mg/dL"
+                },
+                "referenceRange": [
+                    {
+                        "low": {
+                            "value": 35,
+                            "unit": "mg/dL",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mg/dL"
+                        },
+                        "high": {
+                            "value": 59,
+                            "unit": "mg/dL",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mg/dL"
+                        },
+                        "text": "35 to 59 mg/dL"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/open/Observation/cc-obs-pnoelle-lab-uacr-2001",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "cc-obs-pnoelle-lab-uacr-2001",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2021-01-13T16:40:31.000+00:00",
+                    "source": "#Y28anZVYpkEoN0Tu"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">UACR</div>"
+                },
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "9318-7",
+                            "display": "Albumin/Creatinine [Mass Ratio] in Urine"
+                        }
+                    ],
+                    "text": "UACR"
+                },
+                "subject": {
+                    "reference": "Patient/cc-pat-pnoelle"
+                },
+                "effectiveDateTime": "2020-01-24",
+                "performer": [
+                    {
+                        "reference": "Practitioner/cc-prac-carlson-john",
+                        "display": "Dr. John Carlson, MD"
+                    }
+                ],
+                "valueQuantity": {
+                    "value": 1043,
+                    "unit": "mg/g",
+                    "system": "http://unitsofmeasure.org/",
+                    "code": "mg/g{creat}"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/open/Observation/cc-obs-pnoelle-lab-egfr-2001",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "cc-obs-pnoelle-lab-egfr-2001",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2021-01-13T16:41:19.000+00:00",
+                    "source": "#F4WVV1SzHWuOpvmv"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">eGFR</div>"
+                },
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory"
+                            }
+                        ],
+                        "text": "Laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "69405-9",
+                            "display": "Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood"
+                        }
+                    ],
+                    "text": "eGFR"
+                },
+                "subject": {
+                    "reference": "Patient/cc-pat-pnoelle"
+                },
+                "effectiveDateTime": "2020-01-24",
+                "performer": [
+                    {
+                        "reference": "Practitioner/cc-prac-carlson-john",
+                        "display": "Dr. John Carlson, MD"
+                    }
+                ],
+                "valueQuantity": {
+                    "value": 19,
+                    "unit": "mL/min/1.73m2",
+                    "system": "http://unitsofmeasure.org/",
+                    "code": "mL/min/{1.73_m2}"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/open/Observation/cc-obs-pnoelle-bp-2001",
+            "resource": {
+                "resourceType": "Observation",
+                "id": "cc-obs-pnoelle-bp-2001",
+                "meta": {
+                    "versionId": "2",
+                    "lastUpdated": "2021-01-13T18:01:22.000+00:00",
+                    "source": "#WoqQqrSblttPv08s"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Blood pressure</div>"
+                },
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "vital-signs"
+                            }
+                        ],
+                        "text": "Vital Signs"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org",
+                            "code": "85354-9",
+                            "display": "Blood pressure panel with all children optional"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/cc-pat-pnoelle"
+                },
+                "effectiveDateTime": "2020-01-24",
+                "performer": [
+                    {
+                        "reference": "Practitioner/cc-prac-carlson-john",
+                        "display": "Dr. John Carlson, MD"
+                    }
+                ],
+                "bodySite": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "368209003",
+                            "display": "Right arm"
+                        }
+                    ]
+                },
+                "component": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "8480-6",
+                                    "display": "Systolic blood pressure"
+                                }
+                            ]
+                        },
+                        "valueQuantity": {
+                            "value": 144,
+                            "unit": "mmHg",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mm[Hg]"
+                        }
+                    },
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org",
+                                    "code": "8462-4",
+                                    "display": "Diastolic blood pressure"
+                                }
+                            ]
+                        },
+                        "valueQuantity": {
+                            "value": 81,
+                            "unit": "mmHg",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "mm[Hg]"
+                        }
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        }
+    ]
+}

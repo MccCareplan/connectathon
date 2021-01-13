@@ -1,0 +1,442 @@
+{
+    "resourceType": "Bundle",
+    "id": "ac0a6db3-a61c-485c-ba81-7693adc01266",
+    "meta": {
+        "lastUpdated": "2021-01-13T23:42:49.951+00:00"
+    },
+    "type": "searchset",
+    "total": 1,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://api.logicahealth.org/MCCeCarePlanTest/open/QuestionnaireResponse/?patient=cc-pat-pnoelle"
+        }
+    ],
+    "entry": [
+        {
+            "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/open/QuestionnaireResponse/cc-qr-pnoelle-81524-1",
+            "resource": {
+                "resourceType": "QuestionnaireResponse",
+                "id": "cc-qr-pnoelle-81524-1",
+                "meta": {
+                    "versionId": "3",
+                    "lastUpdated": "2020-09-11T15:35:02.000+00:00",
+                    "source": "#aoEZYXJKmXKptXsw",
+                    "profile": [
+                        "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse|2.7"
+                    ],
+                    "tag": [
+                        {
+                            "code": "lformsVersion: 25.1.2"
+                        }
+                    ]
+                },
+                "questionnaire": "Questionnaire/cc-questionnaire-81524-1",
+                "status": "completed",
+                "subject": {
+                    "reference": "Patient/cc-pat-pnoelle",
+                    "display": "Patricia Noelle"
+                },
+                "authored": "2020-09-11T14:29:29.552Z",
+                "item": [
+                    {
+                        "linkId": "/81460-8",
+                        "text": "In the past 7 days - I have had trouble forming thoughts",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17828-7",
+                                    "display": "Often (once a day)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81461-6",
+                        "text": "In the past 7 days - My thinking has been slow",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17827-9",
+                                    "display": "Sometimes (2-3 times)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81462-4",
+                        "text": "In the past 7 days - My thinking has been foggy",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17827-9",
+                                    "display": "Sometimes (2-3 times)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81463-2",
+                        "text": "In the past 7 days - I have had trouble adding or subtracting numbers in my head",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17827-9",
+                                    "display": "Sometimes (2-3 times)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81464-0",
+                        "text": "In the past 7 days - I have made mistakes when writing down phone numbers",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17827-9",
+                                    "display": "Sometimes (2-3 times)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81465-7",
+                        "text": "In the past 7 days - I have had trouble concentrating",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17826-1",
+                                    "display": "Rarely (once)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81466-5",
+                        "text": "In the past 7 days - I have had trouble finding my way to a familiar place",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17826-1",
+                                    "display": "Rarely (once)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81467-3",
+                        "text": "In the past 7 days - I have had trouble remembering where I put things, like my keys or my wallet",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17828-7",
+                                    "display": "Often (once a day)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81468-1",
+                        "text": "In the past 7 days - I have had trouble remembering whether I did things I was supposed to do, like taking a medicine or buying something I needed",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17827-9",
+                                    "display": "Sometimes (2-3 times)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81469-9",
+                        "text": "In the past 7 days - I have had trouble remembering new information, like phone numbers or simple instructions",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17829-5",
+                                    "display": "Very often (Several times a day)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81470-7",
+                        "text": "In the past 7 days - I have had trouble recalling the name of an object while talking to someone",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17826-1",
+                                    "display": "Rarely (once)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81471-5",
+                        "text": "In the past 7 days - I have had trouble speaking fluently",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17828-7",
+                                    "display": "Often (once a day)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81472-3",
+                        "text": "In the past 7 days - I have walked into a room and forgotten what I meant to get or do there",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17827-9",
+                                    "display": "Sometimes (2-3 times)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81473-1",
+                        "text": "In the past 7 days - I have needed medical instructions repeated because I could not keep them straight",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17827-9",
+                                    "display": "Sometimes (2-3 times)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81474-9",
+                        "text": "In the past 7 days - I have had to work really hard to pay attention or I would make a mistake",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17828-7",
+                                    "display": "Often (once a day)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81475-6",
+                        "text": "In the past 7 days - I have forgotten names of people soon after being introduced",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17828-7",
+                                    "display": "Often (once a day)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81476-4",
+                        "text": "In the past 7 days - My reactions in everyday situations have been slow",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17827-9",
+                                    "display": "Sometimes (2-3 times)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81477-2",
+                        "text": "In the past 7 days - Other people have told me I seemed to have trouble remembering information",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17828-7",
+                                    "display": "Often (once a day)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81478-0",
+                        "text": "In the past 7 days - It has seemed like my brain was not working as well as usual",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17827-9",
+                                    "display": "Sometimes (2-3 times)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81479-8",
+                        "text": "In the past 7 days - I have had to work harder than usual to keep track of what I was doing",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17827-9",
+                                    "display": "Sometimes (2-3 times)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81480-6",
+                        "text": "In the past 7 days - My thinking has been slower than usual",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17826-1",
+                                    "display": "Rarely (once)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81481-4",
+                        "text": "In the past 7 days - I have had to work harder than usual to express myself clearly",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17827-9",
+                                    "display": "Sometimes (2-3 times)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81482-2",
+                        "text": "In the past 7 days - I have had more problems conversing with others",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17827-9",
+                                    "display": "Sometimes (2-3 times)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81483-0",
+                        "text": "In the past 7 days - I have had to use written lists more often than usual so I would not forget things",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17827-9",
+                                    "display": "Sometimes (2-3 times)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81484-8",
+                        "text": "In the past 7 days - I have had trouble keeping track of what I was doing when interrupted",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17827-9",
+                                    "display": "Sometimes (2-3 times)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81485-5",
+                        "text": "In the past 7 days - I have had trouble shifting back and forth between different activities that require thinking",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17829-5",
+                                    "display": "Very often (Several times a day)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81486-3",
+                        "text": "In the past 7 days - I have hidden my problems with memory, concentration, or making mental mistakes so that others would not notice",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17827-9",
+                                    "display": "Sometimes (2-3 times)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81487-1",
+                        "text": "In the past 7 days - I have been upset about my problems with memory, concentration, or making mental mistakes",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17827-9",
+                                    "display": "Sometimes (2-3 times)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81488-9",
+                        "text": "In the past 7 days - My problems with memory, concentration, or making mental mistakes have interfered with my ability to work",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17827-9",
+                                    "display": "Sometimes (2-3 times)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81489-7",
+                        "text": "In the past 7 days - My problems with memory, concentration, or making mental mistakes have interfered with my ability to do things I enjoy",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17826-1",
+                                    "display": "Rarely (once)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81490-5",
+                        "text": "In the past 7 days - My problems with memory, concentration, or making mental mistakes have interfered with the quality of my life",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17827-9",
+                                    "display": "Sometimes (2-3 times)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81491-3",
+                        "text": "In the past 7 days - I have had difficulty multi-tasking",
+                        "answer": [
+                            {
+                                "valueCoding": {
+                                    "code": "LA17826-1",
+                                    "display": "Rarely (once)"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "linkId": "/81538-1",
+                        "text": "PROMIS cognitive function - version 2.0 T-score",
+                        "answer": [
+                            {
+                                "valueDecimal": 40
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        }
+    ]
+}

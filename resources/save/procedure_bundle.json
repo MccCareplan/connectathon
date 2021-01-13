@@ -1,0 +1,241 @@
+{
+    "resourceType": "Bundle",
+    "id": "ee16ac53-1084-44fb-b319-2bf3938a862a",
+    "meta": {
+        "lastUpdated": "2021-01-13T23:44:39.151+00:00"
+    },
+    "type": "searchset",
+    "total": 3,
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://api.logicahealth.org/MCCeCarePlanTest/open/Procedure/?patient=cc-pat-pnoelle"
+        }
+    ],
+    "entry": [
+        {
+            "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/open/Procedure/cc-proc-pnoelle-ed1",
+            "resource": {
+                "resourceType": "Procedure",
+                "id": "cc-proc-pnoelle-ed1",
+                "meta": {
+                    "versionId": "6",
+                    "lastUpdated": "2021-01-07T03:28:03.000+00:00",
+                    "source": "#PhtAhITtGphd7COK"
+                },
+                "status": "completed",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "409073007",
+                            "display": "Patient education (procedure)"
+                        }
+                    ],
+                    "text": "Education"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "438578000",
+                            "display": "Dietary education for renal disorder"
+                        }
+                    ],
+                    "text": "Dietary education for renal disorder"
+                },
+                "subject": {
+                    "reference": "Patient/cc-pat-pnoelle"
+                },
+                "performedDateTime": "2017-02-15T00:00:00-07:00",
+                "performer": [
+                    {
+                        "function": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "446050000",
+                                    "display": "PCP - Primary care physician"
+                                }
+                            ],
+                            "text": "PCP - Primary care physician"
+                        },
+                        "actor": {
+                            "reference": "Practitioner/cc-prac-carlson-john"
+                        }
+                    }
+                ],
+                "reasonCode": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://snomed.info/sct",
+                                "code": "709044004",
+                                "display": "Chronic kidney disease (disorder)"
+                            }
+                        ],
+                        "text": "Chronic kidney disease"
+                    }
+                ],
+                "outcome": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "385670004",
+                            "display": "Partially successful"
+                        }
+                    ],
+                    "text": "Partially sucessful"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/open/Procedure/cc-proc-pnoelle-ed2",
+            "resource": {
+                "resourceType": "Procedure",
+                "id": "cc-proc-pnoelle-ed2",
+                "meta": {
+                    "versionId": "3",
+                    "lastUpdated": "2021-01-07T03:37:50.000+00:00",
+                    "source": "#4vyIswpu9QhAEeKV"
+                },
+                "status": "completed",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "409073007",
+                            "display": "Patient education (procedure)"
+                        }
+                    ],
+                    "text": "Education"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "438578000",
+                            "display": "Dietary education for renal disorder"
+                        }
+                    ],
+                    "text": "Dietary education for renal disorder"
+                },
+                "subject": {
+                    "reference": "Patient/cc-pat-pnoelle"
+                },
+                "performedDateTime": "2017-09-12T00:00:00-07:00",
+                "performer": [
+                    {
+                        "function": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "11911009",
+                                    "display": "Nephrologist"
+                                }
+                            ],
+                            "text": "Nephrologist"
+                        },
+                        "actor": {
+                            "reference": "Practitioner/cc-prac-jones-vince"
+                        }
+                    }
+                ],
+                "reasonReference": [
+                    {
+                        "reference": "Condition/cc-cond-pnoelle-ckd"
+                    }
+                ],
+                "outcome": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "385669000",
+                            "display": "Successful"
+                        }
+                    ],
+                    "text": "Sucessful"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/open/Procedure/cc-proc-pnoelle-coun1",
+            "resource": {
+                "resourceType": "Procedure",
+                "id": "cc-proc-pnoelle-coun1",
+                "meta": {
+                    "versionId": "2",
+                    "lastUpdated": "2021-01-07T03:44:01.000+00:00",
+                    "source": "#vfT6gsnUU9dEBR1L"
+                },
+                "status": "completed",
+                "category": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "409063005",
+                            "display": "Counselling (procedure)"
+                        }
+                    ],
+                    "text": "Counselling"
+                },
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "424753004",
+                            "display": "Dietary management education, guidance, and counseling"
+                        }
+                    ],
+                    "text": "Dietary management education, guidance, and counseling"
+                },
+                "subject": {
+                    "reference": "Patient/cc-pat-pnoelle"
+                },
+                "performedDateTime": "2017-05-03T00:00:00-07:00",
+                "performer": [
+                    {
+                        "function": {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct",
+                                    "code": "309413008",
+                                    "display": "Renal dietitian"
+                                }
+                            ],
+                            "text": "Renal dietitian"
+                        },
+                        "actor": {
+                            "reference": "Practitioner/cc-prac-gonzalez-maria"
+                        }
+                    }
+                ],
+                "reasonReference": [
+                    {
+                        "reference": "Condition/cc-cond-pnoelle-ckd",
+                        "display": "CKD & Type 2 Diabetes"
+                    }
+                ],
+                "outcome": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "385669000",
+                            "display": "Successful"
+                        }
+                    ],
+                    "text": "Sucessful"
+                }
+            },
+            "search": {
+                "mode": "match"
+            }
+        }
+    ]
+}
