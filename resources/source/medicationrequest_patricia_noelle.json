@@ -301,7 +301,7 @@
                 ],
                 "dosageInstruction": [
                     {
-                        "text": "Take Lisinopril 40mg tablet once a day for high blood pressure.",
+                        "text-old": "Take Lisinopril 40mg tablet once a day for high blood pressure.",
                         "timing": {
                             "repeat": {
                                 "boundsPeriod": {
@@ -394,7 +394,7 @@
                 ],
                 "dosageInstruction": [
                     {
-                        "text": "By mouth twice daily in the morning and evening.",
+                        "text-old": "By mouth twice daily in the morning and evening.",
                         "timing": {
                             "repeat": {
                                 "boundsPeriod": {
@@ -403,7 +403,11 @@
                                 },
                                 "frequency": 2,
                                 "period": 1,
-                                "periodUnit": "d"
+                                "periodUnit": "d",
+                                "when": [ 
+                                	"MORN",
+                                	"EVE"
+                                ]
                             }
                         },
                         "route": {
@@ -482,7 +486,13 @@
                 ],
                 "dosageInstruction": [
                     {
-                        "text": "Twice daily.",
+                        "timing": {
+                            "repeat": {
+                                "frequency": 2,
+                                "period": 1,
+                                "periodUnit": "d"
+                            }
+                        },
                         "doseAndRate": [
                             {
                                 "type": {
@@ -527,9 +537,13 @@
                     "reference": "Patient/cc-pat-pnoelle"
                 },
                 "authoredOn": "2017-08-01",
+                "requester": {
+                    "reference": "Practitioner/cc-prac-carlson-john",
+                    "display": "John Carlson, MD"
+                },
                 "dosageInstruction": [
                     {
-                        "text": "Take Metoprolol 12.5mg tablet twice a day for Congestive Heart failure",
+                        "text": "Take 1 tablet twice a day",
                         "timing": {
                             "repeat": {
                                 "boundsPeriod": {
@@ -595,9 +609,13 @@
                     "reference": "Patient/cc-pat-pnoelle"
                 },
                 "authoredOn": "2017-08-01",
+                 "requester": {
+                    "reference": "Practitioner/cc-prac-carlson-john",
+                    "display": "John Carlson, MD"
+                },
                 "dosageInstruction": [
                     {
-                        "text": "Take every 12 hours by mouth for pain"
+                        "text": "Take every 12 hours"
                     }
                 ]
             },
@@ -625,9 +643,13 @@
                     "reference": "Patient/cc-pat-pnoelle"
                 },
                 "authoredOn": "2017-08-01",
+                 "requester": {
+                    "reference": "Practitioner/cc-prac-carlson-john",
+                    "display": "John Carlson, MD"
+                },
                 "dosageInstruction": [
                     {
-                        "text": "Take 1-2 tabs by mouth every six hours as needed for breakthrough pain"
+                        "text": "1-2 tabs by mouth every six hours as needed for breakthrough pain"
                     }
                 ]
             },
@@ -655,9 +677,13 @@
                     "reference": "Patient/cc-pat-pnoelle"
                 },
                 "authoredOn": "2017-08-01",
+                 "requester": {
+                    "reference": "Practitioner/cc-prac-carlson-john",
+                    "display": "John Carlson, MD"
+                },
                 "dosageInstruction": [
                     {
-                        "text": "Take Sertraline 100mg tablet once a day.",
+                        "text": "100mg tablet once a day.",
                         "timing": {
                             "repeat": {
                                 "boundsPeriod": {
@@ -721,6 +747,10 @@
                     "reference": "Patient/cc-pat-pnoelle"
                 },
                 "authoredOn": "2017-08-01",
+                 "requester": {
+                    "reference": "Practitioner/cc-prac-carlson-john",
+                    "display": "John Carlson, MD"
+                },
                 "dosageInstruction": [
                     {
                         "text": "Take one pill by mouth daily."
@@ -789,7 +819,7 @@
             },
             "request": {
                 "method": "PUT",
-                "url": "MedicationStatement/cc-med-pnoelle-centrum"
+                "url": "MedicationRequest/cc-MedicationRequest-pnoelle-PB"
             }
         }
     ]
