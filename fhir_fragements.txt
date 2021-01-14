@@ -1,0 +1,40 @@
+
+Provider
+	{
+			"reference": "Practitioner/cc-prac-carlson-john"
+		}
+	
+Diet
+	{
+			"reference": "Practitioner/cc-prac-gonzalez-maria"
+		}
+	
+Nephrologist
+	{
+			"reference": "Practitioner/cc-prac-jones-vince"
+		}
+
+424753004 Dietary management education, guidance, and counseling, 
+
+446050000, "PCP - Primary care physician"
+
+309413008, "Renal dietitian"
+
+11911009, "Nephrologist"
+
+385669000, "Sucessful"
+
+409063005, Counselling"
+
+Condition/cc-cond-pnoelle-ckd
+
+                "reasonCode": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "709044004",
+                            "display": "Chronic kidney disease (disorder)"
+                        }
+                    ],
+                    "text": "Chronic kidney disease"
+                },

@@ -1,15 +1,15 @@
 {
     "resourceType": "Bundle",
-    "id": "ee16ac53-1084-44fb-b319-2bf3938a862a",
+    "id": "0ca05bc7-e043-4ff6-9adb-ea9d6b631130",
     "meta": {
-        "lastUpdated": "2021-01-13T23:44:39.151+00:00"
+        "lastUpdated": "2021-01-13T23:34:34.278+00:00"
     },
     "type": "searchset",
     "total": 3,
     "link": [
         {
             "relation": "self",
-            "url": "https://api.logicahealth.org/MCCeCarePlanTest/open/Procedure/?patient=cc-pat-pnoelle"
+            "url": "https://api.logicahealth.org/MCCeCarePlanTest/open/Procedure/?subject=cc-pat-pnoelle"
         }
     ],
     "entry": [
