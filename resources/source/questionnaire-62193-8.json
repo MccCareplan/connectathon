@@ -1,0 +1,723 @@
+{
+  "extension": [],
+  "id": "loinc-62193-8",
+  "code": [
+    {
+      "code": "62193-8",
+      "display": "PROMIS short form - pain interference 6b - version 1.0"
+    }
+  ],
+  "title": "PROMIS short form - pain interference 6b - version 1.0",
+  "resourceType": "Questionnaire",
+  "status": "draft",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|2.7"
+    ],
+    "tag": [
+      {
+        "code": "lformsVersion: 28.1.1"
+      }
+    ]
+  },
+  "item": [
+    {
+      "type": "choice",
+      "code": [
+        {
+          "code": "61794-4",
+          "display": "In the past 7 days - How much did pain interfere with your enjoyment of life?"
+        }
+      ],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "drop-down",
+                "display": "Drop down"
+              }
+            ],
+            "text": "Drop down"
+          }
+        }
+      ],
+      "required": false,
+      "linkId": "/61794-4",
+      "text": "In the past 7 days - How much did pain interfere with your enjoyment of life?",
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "1"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 1
+            }
+          ],
+          "valueCoding": {
+            "code": "LA6568-5",
+            "display": "Not at all"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "2"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 2
+            }
+          ],
+          "valueCoding": {
+            "code": "LA13863-8",
+            "display": "A little bit"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "3"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 3
+            }
+          ],
+          "valueCoding": {
+            "code": "LA13909-9",
+            "display": "Somewhat"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "4"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 4
+            }
+          ],
+          "valueCoding": {
+            "code": "LA13902-4",
+            "display": "Quite a bit"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "5"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 5
+            }
+          ],
+          "valueCoding": {
+            "code": "LA13914-9",
+            "display": "Very much"
+          }
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "code": [
+        {
+          "code": "61758-9",
+          "display": "In the past 7 days - How much did pain interfere with your day to day activities?"
+        }
+      ],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "drop-down",
+                "display": "Drop down"
+              }
+            ],
+            "text": "Drop down"
+          }
+        }
+      ],
+      "required": false,
+      "linkId": "/61758-9",
+      "text": "In the past 7 days - How much did pain interfere with your day to day activities?",
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "1"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 1
+            }
+          ],
+          "valueCoding": {
+            "code": "LA6568-5",
+            "display": "Not at all"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "2"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 2
+            }
+          ],
+          "valueCoding": {
+            "code": "LA13863-8",
+            "display": "A little bit"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "3"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 3
+            }
+          ],
+          "valueCoding": {
+            "code": "LA13909-9",
+            "display": "Somewhat"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "4"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 4
+            }
+          ],
+          "valueCoding": {
+            "code": "LA13902-4",
+            "display": "Quite a bit"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "5"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 5
+            }
+          ],
+          "valueCoding": {
+            "code": "LA13914-9",
+            "display": "Very much"
+          }
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "code": [
+        {
+          "code": "61757-1",
+          "display": "In the past 7 days - How much did pain interfere with your ability to concentrate?"
+        }
+      ],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "drop-down",
+                "display": "Drop down"
+              }
+            ],
+            "text": "Drop down"
+          }
+        }
+      ],
+      "required": false,
+      "linkId": "/61757-1",
+      "text": "In the past 7 days - How much did pain interfere with your ability to concentrate?",
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "1"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 1
+            }
+          ],
+          "valueCoding": {
+            "code": "LA6568-5",
+            "display": "Not at all"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "2"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 2
+            }
+          ],
+          "valueCoding": {
+            "code": "LA13863-8",
+            "display": "A little bit"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "3"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 3
+            }
+          ],
+          "valueCoding": {
+            "code": "LA13909-9",
+            "display": "Somewhat"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "4"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 4
+            }
+          ],
+          "valueCoding": {
+            "code": "LA13902-4",
+            "display": "Quite a bit"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "5"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 5
+            }
+          ],
+          "valueCoding": {
+            "code": "LA13914-9",
+            "display": "Very much"
+          }
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "code": [
+        {
+          "code": "61759-7",
+          "display": "In the past 7 days - How much did pain interfere with your enjoyment of recreational activities?"
+        }
+      ],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "drop-down",
+                "display": "Drop down"
+              }
+            ],
+            "text": "Drop down"
+          }
+        }
+      ],
+      "required": false,
+      "linkId": "/61759-7",
+      "text": "In the past 7 days - How much did pain interfere with your enjoyment of recreational activities?",
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "1"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 1
+            }
+          ],
+          "valueCoding": {
+            "code": "LA6568-5",
+            "display": "Not at all"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "2"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 2
+            }
+          ],
+          "valueCoding": {
+            "code": "LA13863-8",
+            "display": "A little bit"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "3"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 3
+            }
+          ],
+          "valueCoding": {
+            "code": "LA13909-9",
+            "display": "Somewhat"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "4"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 4
+            }
+          ],
+          "valueCoding": {
+            "code": "LA13902-4",
+            "display": "Quite a bit"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "5"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 5
+            }
+          ],
+          "valueCoding": {
+            "code": "LA13914-9",
+            "display": "Very much"
+          }
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "code": [
+        {
+          "code": "61763-9",
+          "display": "In the past 7 days - How much did pain interfere with doing your tasks away from home (e.g., getting groceries, running errands)?"
+        }
+      ],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "drop-down",
+                "display": "Drop down"
+              }
+            ],
+            "text": "Drop down"
+          }
+        }
+      ],
+      "required": false,
+      "linkId": "/61763-9",
+      "text": "In the past 7 days - How much did pain interfere with doing your tasks away from home (e.g., getting groceries, running errands)?",
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "1"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 1
+            }
+          ],
+          "valueCoding": {
+            "code": "LA6568-5",
+            "display": "Not at all"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "2"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 2
+            }
+          ],
+          "valueCoding": {
+            "code": "LA13863-8",
+            "display": "A little bit"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "3"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 3
+            }
+          ],
+          "valueCoding": {
+            "code": "LA13909-9",
+            "display": "Somewhat"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "4"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 4
+            }
+          ],
+          "valueCoding": {
+            "code": "LA13902-4",
+            "display": "Quite a bit"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "5"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 5
+            }
+          ],
+          "valueCoding": {
+            "code": "LA13914-9",
+            "display": "Very much"
+          }
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "code": [
+        {
+          "code": "61771-2",
+          "display": "In the past 7 days - How often did pain keep you from socializing with others?"
+        }
+      ],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "drop-down",
+                "display": "Drop down"
+              }
+            ],
+            "text": "Drop down"
+          }
+        }
+      ],
+      "required": false,
+      "linkId": "/61771-2",
+      "text": "In the past 7 days - How often did pain keep you from socializing with others?",
+      "answerOption": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "1"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 1
+            }
+          ],
+          "valueCoding": {
+            "code": "LA6270-8",
+            "display": "Never"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "2"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 2
+            }
+          ],
+          "valueCoding": {
+            "code": "LA10066-1",
+            "display": "Rarely"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "3"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 3
+            }
+          ],
+          "valueCoding": {
+            "code": "LA10082-8",
+            "display": "Sometimes"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "4"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 4
+            }
+          ],
+          "valueCoding": {
+            "code": "LA10044-8",
+            "display": "Often"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-optionPrefix",
+              "valueString": "5"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+              "valueDecimal": 5
+            }
+          ],
+          "valueCoding": {
+            "code": "LA9933-8",
+            "display": "Always"
+          }
+        }
+      ]
+    },
+    {
+      "type": "decimal",
+      "code": [
+        {
+          "code": "77833-2",
+          "display": "PROMIS short form - pain interference 6b - version 1.0 raw score"
+        }
+      ],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-unit",
+          "valueCoding": {
+            "code": "{score}",
+            "display": "{score}",
+            "system": "http://unitsofmeasure.org"
+          }
+        }
+      ],
+      "required": false,
+      "linkId": "/77833-2",
+      "text": "PROMIS short form - pain interference 6b - version 1.0 raw score"
+    },
+    {
+      "type": "decimal",
+      "code": [
+        {
+          "code": "77865-4",
+          "display": "PROMIS pain interference - version 1.0 T-score"
+        }
+      ],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-unit",
+          "valueCoding": {
+            "code": "{Tscore}",
+            "display": "{Tscore}",
+            "system": "http://unitsofmeasure.org"
+          }
+        }
+      ],
+      "required": false,
+      "linkId": "/77865-4",
+      "text": "PROMIS pain interference - version 1.0 T-score"
+    }
+  ]
+}

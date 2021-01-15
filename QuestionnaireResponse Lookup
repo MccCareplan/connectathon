@@ -1,0 +1,2 @@
+Find Questionnaires with the response for code 77825-8: https://api.logicahealth.org/MCCeCarePlanTest/open/Questionnaire/?code=77825-8
+Query for Questionnaire reponses:  https://api.logicahealth.org/MCCeCarePlanTest/open/QuestionnaireResponse/?questionnaire=16961,loinc-75259-2&subject=cc-pat-pnoelle
