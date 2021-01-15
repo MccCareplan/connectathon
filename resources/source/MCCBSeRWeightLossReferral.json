@@ -66,8 +66,8 @@
   },
   "performer" : [
     {
-      "reference" : "Practitioner/cc-prac-walkowski-ellen",
-      "display" : "Ellen Walkowski"
+      "reference" : "Practitioner/cc-prac-gonzalez-maria",
+      "display" : "Marias Gonzalez"
     }
   ],
   "reasonCode" : [
