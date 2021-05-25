@@ -1,0 +1,1160 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    [
+      {
+        "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/data/AllergyIntolerance/SMART-AllergyIntolerance-23",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "id": "SMART-AllergyIntolerance-23",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2019-03-07T08:49:12.000+00:00"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Sensitivity to sulfonamide antibacterial</div>"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "criticality": "low",
+          "code": {
+            "coding": [
+              {
+                "system": "http://rxnav.nlm.nih.gov/REST/Ndfrt",
+                "code": "N0000175503",
+                "display": "sulfonamide antibacterial",
+                "userSelected": false
+              }
+            ],
+            "text": "sulfonamide antibacterial"
+          },
+          "patient": {
+            "reference": "Patient/SMART-1137192"
+          },
+          "recordedDate": "2000-01-01T00:00:00-07:00",
+          "reaction": [
+            {
+              "manifestation": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "271807003",
+                      "display": "skin rash",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "skin rash"
+                }
+              ],
+              "severity": "mild"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/data/AllergyIntolerance/SMART-AllergyIntolerance-28",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "id": "SMART-AllergyIntolerance-28",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2019-03-07T08:49:12.000+00:00"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Sensitivity to sulfonamide antibacterial</div>"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "criticality": "low",
+          "code": {
+            "coding": [
+              {
+                "system": "http://rxnav.nlm.nih.gov/REST/Ndfrt",
+                "code": "N0000175503",
+                "display": "sulfonamide antibacterial",
+                "userSelected": false
+              }
+            ],
+            "text": "sulfonamide antibacterial"
+          },
+          "patient": {
+            "reference": "Patient/SMART-1288992"
+          },
+          "recordedDate": "2000-01-01T00:00:00-07:00",
+          "recorder": {
+            "reference": "Practitioner/SMART-1234"
+          },
+          "reaction": [
+            {
+              "manifestation": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "271807003",
+                      "display": "skin rash",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "skin rash"
+                }
+              ],
+              "severity": "mild"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/data/AllergyIntolerance/SMART-AllergyIntolerance-33",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "id": "SMART-AllergyIntolerance-33",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2019-03-07T08:49:12.000+00:00"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Sensitivity to sulfonamide antibacterial</div>"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "criticality": "low",
+          "code": {
+            "coding": [
+              {
+                "system": "http://rxnav.nlm.nih.gov/REST/Ndfrt",
+                "code": "N0000175503",
+                "display": "sulfonamide antibacterial",
+                "userSelected": false
+              }
+            ],
+            "text": "sulfonamide antibacterial"
+          },
+          "patient": {
+            "reference": "Patient/SMART-1551992"
+          },
+          "recordedDate": "2000-01-01T00:00:00-07:00",
+          "reaction": [
+            {
+              "manifestation": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "271807003",
+                      "display": "skin rash",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "skin rash"
+                }
+              ],
+              "severity": "mild"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/data/AllergyIntolerance/SMART-AllergyIntolerance-39",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "id": "SMART-AllergyIntolerance-39",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2019-03-07T08:49:13.000+00:00"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Sensitivity to sulfonamide antibacterial</div>"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "criticality": "low",
+          "code": {
+            "coding": [
+              {
+                "system": "http://rxnav.nlm.nih.gov/REST/Ndfrt",
+                "code": "N0000175503",
+                "display": "sulfonamide antibacterial",
+                "userSelected": false
+              }
+            ],
+            "text": "sulfonamide antibacterial"
+          },
+          "patient": {
+            "reference": "Patient/SMART-1685497"
+          },
+          "recordedDate": "2000-01-01T00:00:00-07:00",
+          "reaction": [
+            {
+              "manifestation": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "271807003",
+                      "display": "skin rash",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "skin rash"
+                }
+              ],
+              "severity": "mild"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/data/AllergyIntolerance/SMART-AllergyIntolerance-40",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "id": "SMART-AllergyIntolerance-40",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2019-03-07T08:49:13.000+00:00"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Sensitivity to peanut</div>"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "criticality": "high",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fda.gov/UNII/",
+                "code": "QE1QX6B99R",
+                "display": "peanut",
+                "userSelected": false
+              }
+            ],
+            "text": "peanut"
+          },
+          "patient": {
+            "reference": "Patient/SMART-1685497"
+          },
+          "recordedDate": "2000-01-01T00:00:00-07:00",
+          "reaction": [
+            {
+              "manifestation": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "39579001",
+                      "display": "Anaphylaxis",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "Anaphylaxis"
+                }
+              ],
+              "severity": "severe"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/data/AllergyIntolerance/SMART-AllergyIntolerance-50",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "id": "SMART-AllergyIntolerance-50",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2019-03-07T08:49:13.000+00:00"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Sensitivity to sulfonamide antibacterial</div>"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "criticality": "low",
+          "code": {
+            "coding": [
+              {
+                "system": "http://rxnav.nlm.nih.gov/REST/Ndfrt",
+                "code": "N0000175503",
+                "display": "sulfonamide antibacterial",
+                "userSelected": false
+              }
+            ],
+            "text": "sulfonamide antibacterial"
+          },
+          "patient": {
+            "reference": "Patient/SMART-2169591"
+          },
+          "recordedDate": "2000-01-01T00:00:00-07:00",
+          "reaction": [
+            {
+              "manifestation": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "271807003",
+                      "display": "skin rash",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "skin rash"
+                }
+              ],
+              "severity": "mild"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/data/AllergyIntolerance/SMART-AllergyIntolerance-51",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "id": "SMART-AllergyIntolerance-51",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2019-03-07T08:49:14.000+00:00"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Sensitivity to peanut</div>"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "criticality": "high",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fda.gov/UNII/",
+                "code": "QE1QX6B99R",
+                "display": "peanut",
+                "userSelected": false
+              }
+            ],
+            "text": "peanut"
+          },
+          "patient": {
+            "reference": "Patient/SMART-2169591"
+          },
+          "recordedDate": "2000-01-01T00:00:00-07:00",
+          "reaction": [
+            {
+              "manifestation": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "39579001",
+                      "display": "Anaphylaxis",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "Anaphylaxis"
+                }
+              ],
+              "severity": "severe"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/data/AllergyIntolerance/SMART-AllergyIntolerance-2",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "id": "SMART-AllergyIntolerance-2",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2019-03-07T08:49:14.000+00:00"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Sensitivity to sulfonamide antibacterial</div>"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "criticality": "low",
+          "code": {
+            "coding": [
+              {
+                "system": "http://rxnav.nlm.nih.gov/REST/Ndfrt",
+                "code": "N0000175503",
+                "display": "sulfonamide antibacterial",
+                "userSelected": false
+              }
+            ],
+            "text": "sulfonamide antibacterial"
+          },
+          "patient": {
+            "reference": "Patient/SMART-621799"
+          },
+          "recordedDate": "2000-01-01T00:00:00-07:00",
+          "reaction": [
+            {
+              "manifestation": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "271807003",
+                      "display": "skin rash",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "skin rash"
+                }
+              ],
+              "severity": "mild"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/data/AllergyIntolerance/SMART-AllergyIntolerance-3",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "id": "SMART-AllergyIntolerance-3",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2019-03-07T08:49:15.000+00:00"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Sensitivity to peanut</div>"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "criticality": "high",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fda.gov/UNII/",
+                "code": "QE1QX6B99R",
+                "display": "peanut",
+                "userSelected": false
+              }
+            ],
+            "text": "peanut"
+          },
+          "patient": {
+            "reference": "Patient/SMART-621799"
+          },
+          "recordedDate": "2000-01-01T00:00:00-07:00",
+          "reaction": [
+            {
+              "manifestation": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "39579001",
+                      "display": "Anaphylaxis",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "Anaphylaxis"
+                }
+              ],
+              "severity": "severe"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/data/AllergyIntolerance/SMART-AllergyIntolerance-55",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "id": "SMART-AllergyIntolerance-55",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2019-03-07T08:49:15.000+00:00"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Sensitivity to Erythromycin</div>"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "criticality": "high",
+          "code": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "code": "4053",
+                "display": "Erythromycin",
+                "userSelected": false
+              }
+            ],
+            "text": "Erythromycin"
+          },
+          "patient": {
+            "reference": "Patient/SMART-8888801"
+          },
+          "recordedDate": "2013-01-01T00:00:00-07:00",
+          "reaction": [
+            {
+              "manifestation": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "64144002",
+                      "display": "Pruritic rash ",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "Pruritic rash "
+                }
+              ],
+              "severity": "severe"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/data/AllergyIntolerance/SMART-AllergyIntolerance-56",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "id": "SMART-AllergyIntolerance-56",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2019-03-07T08:49:15.000+00:00"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Sensitivity to lisinopril 20mg</div>"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "criticality": "high",
+          "code": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "code": "316153",
+                "display": "lisinopril 20mg",
+                "userSelected": false
+              }
+            ],
+            "text": "lisinopril 20mg"
+          },
+          "patient": {
+            "reference": "Patient/SMART-8888802"
+          },
+          "recordedDate": "2013-01-01T00:00:00-07:00",
+          "reaction": [
+            {
+              "manifestation": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "49727002",
+                      "display": "Cough",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "Cough"
+                }
+              ],
+              "severity": "severe"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/data/AllergyIntolerance/SMART-AllergyIntolerance-57",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "id": "SMART-AllergyIntolerance-57",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2019-03-07T08:49:16.000+00:00"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Sensitivity to dust</div>"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "criticality": "high",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fda.gov/UNII/",
+                "code": "EYO007VX98",
+                "display": "dust",
+                "userSelected": false
+              }
+            ],
+            "text": "dust"
+          },
+          "patient": {
+            "reference": "Patient/SMART-8888802"
+          },
+          "recordedDate": "2013-01-01T00:00:00-07:00",
+          "reaction": [
+            {
+              "manifestation": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "389145006",
+                      "display": "Allergic asthma",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "Allergic asthma"
+                }
+              ],
+              "severity": "severe"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/data/AllergyIntolerance/SMART-AllergyIntolerance-58",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "id": "SMART-AllergyIntolerance-58",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2019-03-07T08:49:16.000+00:00"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Sensitivity to tree pollens</div>"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "criticality": "high",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fda.gov/UNII/",
+                "code": "JQ5HI5004M",
+                "display": "tree pollens",
+                "userSelected": false
+              }
+            ],
+            "text": "tree pollens"
+          },
+          "patient": {
+            "reference": "Patient/SMART-8888802"
+          },
+          "recordedDate": "2013-01-01T00:00:00-07:00",
+          "reaction": [
+            {
+              "manifestation": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "389145006",
+                      "display": "Allergic asthma",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "Allergic asthma"
+                }
+              ],
+              "severity": "severe"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/data/AllergyIntolerance/SMART-AllergyIntolerance-59",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "id": "SMART-AllergyIntolerance-59",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2019-03-07T08:49:16.000+00:00"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Sensitivity to shrimp</div>"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "criticality": "high",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fda.gov/UNII/",
+                "code": "1891LE191T",
+                "display": "shrimp",
+                "userSelected": false
+              }
+            ],
+            "text": "shrimp"
+          },
+          "patient": {
+            "reference": "Patient/SMART-8888802"
+          },
+          "recordedDate": "2013-01-01T00:00:00-07:00",
+          "reaction": [
+            {
+              "manifestation": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "39579001",
+                      "display": "Anaphylaxis",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "Anaphylaxis"
+                }
+              ],
+              "severity": "severe"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/data/AllergyIntolerance/SMART-AllergyIntolerance-60",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "id": "SMART-AllergyIntolerance-60",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2019-03-07T08:49:17.000+00:00"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Sensitivity to Latex</div>"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "criticality": "high",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fda.gov/UNII/",
+                "code": "2LQ0UUW8IN",
+                "display": "Latex",
+                "userSelected": false
+              }
+            ],
+            "text": "Latex"
+          },
+          "patient": {
+            "reference": "Patient/SMART-8888803"
+          },
+          "recordedDate": "2013-01-01T00:00:00-07:00",
+          "reaction": [
+            {
+              "manifestation": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "238575004",
+                      "display": "Allergic contact dermatitis",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "Allergic contact dermatitis"
+                }
+              ],
+              "severity": "severe"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/data/AllergyIntolerance/SMART-AllergyIntolerance-61",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "id": "SMART-AllergyIntolerance-61",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2019-03-07T08:49:17.000+00:00"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Sensitivity to Ciprofloxacin</div>"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "criticality": "high",
+          "code": {
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "code": "203563",
+                "display": "Ciprofloxacin",
+                "userSelected": false
+              }
+            ],
+            "text": "Ciprofloxacin"
+          },
+          "patient": {
+            "reference": "Patient/SMART-8888803"
+          },
+          "recordedDate": "2013-01-01T00:00:00-07:00",
+          "reaction": [
+            {
+              "manifestation": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "422400008",
+                      "display": "Vomiting",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "Vomiting"
+                }
+              ],
+              "severity": "severe"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/data/AllergyIntolerance/SMART-AllergyIntolerance-14",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "id": "SMART-AllergyIntolerance-14",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2019-03-07T08:49:17.000+00:00"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Sensitivity to sulfonamide antibacterial</div>"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "criticality": "low",
+          "code": {
+            "coding": [
+              {
+                "system": "http://rxnav.nlm.nih.gov/REST/Ndfrt",
+                "code": "N0000175503",
+                "display": "sulfonamide antibacterial",
+                "userSelected": false
+              }
+            ],
+            "text": "sulfonamide antibacterial"
+          },
+          "patient": {
+            "reference": "Patient/SMART-897185"
+          },
+          "recordedDate": "2000-01-01T00:00:00-07:00",
+          "reaction": [
+            {
+              "manifestation": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "271807003",
+                      "display": "skin rash",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "skin rash"
+                }
+              ],
+              "severity": "mild"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/data/AllergyIntolerance/SMART-AllergyIntolerance-15",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "id": "SMART-AllergyIntolerance-15",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2019-03-07T08:49:18.000+00:00"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Sensitivity to peanut</div>"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active"
+              }
+            ]
+          },
+          "criticality": "high",
+          "code": {
+            "coding": [
+              {
+                "system": "http://fda.gov/UNII/",
+                "code": "QE1QX6B99R",
+                "display": "peanut",
+                "userSelected": false
+              }
+            ],
+            "text": "peanut"
+          },
+          "patient": {
+            "reference": "Patient/SMART-897185"
+          },
+          "recordedDate": "2000-01-01T00:00:00-07:00",
+          "reaction": [
+            {
+              "manifestation": [
+                {
+                  "coding": [
+                    {
+                      "system": "http://snomed.info/sct",
+                      "code": "39579001",
+                      "display": "Anaphylaxis",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "Anaphylaxis"
+                }
+              ],
+              "severity": "severe"
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/data/AllergyIntolerance/cc-allergy-betsy-dairy",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "id": "cc-allergy-betsy-dairy",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2020-04-08T20:25:45.000+00:00",
+            "profile": [
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance"
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Dairy food intolerance</div>"
+          },
+          "clinicalStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+                "code": "active",
+                "display": "Active"
+              }
+            ]
+          },
+          "verificationStatus": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+                "code": "confirmed",
+                "display": "Confirmed"
+              }
+            ]
+          },
+          "category": [
+            "food"
+          ],
+          "code": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "226760005",
+                "display": "Dairy foods (substance)"
+              }
+            ],
+            "text": "Dairy"
+          },
+          "patient": {
+            "reference": "Patient/cc-pat-betsy",
+            "display": "Betsy"
+          },
+          "onsetDateTime": "2015",
+          "recordedDate": "2016-01-15",
+          "recorder": {
+            "reference": "Practitioner/cc-prac-carlson-john"
+          },
+          "asserter": {
+            "reference": "Patient/cc-pat-betsy"
+          },
+          "note": [
+            {
+              "text": "The severity is moderate becasue of the observed intestinal cramping."
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "resourceType": "Bundle",
+  "id": "414f0a9b-274f-47e9-a473-d749e3ca1186",
+  "meta": {
+    "lastUpdated": "2021-05-25T15:56:45.068+00:00"
+  },
+  "type": "searchset",
+  "total": 2,
+  "link": [ {
+    "relation": "self",
+    "url": "https://api.logicahealth.org/MCCeCarePlanTest/open/CareTeam?subject=cc-pat-pnoelle"
+  } ],
+  "entry": [ {
+    "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/open/CareTeam/cc-team-pnoelle-support",
+    "resource": {
+      "resourceType": "CareTeam",
+      "id": "cc-team-pnoelle-support",
+      "meta": {
+        "versionId": "3",
+        "lastUpdated": "2021-03-09T20:27:31.000+00:00",
+        "source": "#Pyz314EAFFHid1DL"
+      },
+      "status": "active",
+      "name": "Support Services",
+      "subject": {
+        "reference": "Patient/cc-pat-pnoelle",
+        "display": "Patricia Noelle"
+      },
+      "participant": [ {
+        "role": [ {
+          "coding": [ {
+            "system": "http\n\t\t\t://snomed.info/sct",
+            "code": "106328005",
+            "display": "Social worker"
+          } ],
+          "text": "Renal Social Worker"
+        } ],
+        "member": {
+          "reference": "Practitioner/cc-prac-johnson-sam"
+        }
+      }, {
+        "role": [ {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "133932002",
+            "display": "Caregiver"
+          } ],
+          "text": "Caregiver"
+        } ],
+        "member": {
+          "reference": "RelatedPerson/cc-pat-pnoelle-related-daughter",
+          "display": "Daughter"
+        }
+      }, {
+        "role": [ {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "274272004",
+            "display": "Catering services occupation"
+          } ],
+          "text": "Catering services"
+        } ],
+        "member": {
+          "reference": "Organization/cc-org-meals-on-wheels"
+        }
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/open/CareTeam/cc-team-pnoelle",
+    "resource": {
+      "resourceType": "CareTeam",
+      "id": "cc-team-pnoelle",
+      "meta": {
+        "versionId": "2",
+        "lastUpdated": "2021-03-09T20:24:30.000+00:00",
+        "source": "#eb1ieTVA8M7L7U67"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Pat's primary care team</div>"
+      },
+      "status": "active",
+      "name": "Primary Care Team",
+      "subject": {
+        "reference": "Patient/cc-pat-pnoelle",
+        "display": "Patricia Noelle"
+      },
+      "participant": [ {
+        "role": [ {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "133932002",
+            "display": "Caregiver"
+          } ],
+          "text": "Caregiver"
+        } ],
+        "member": {
+          "reference": "RelatedPerson/cc-pat-pnoelle-related-daughter",
+          "display": "Daughter"
+        }
+      }, {
+        "role": [ {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "224535009",
+            "display": "Registered nurse"
+          } ],
+          "text": "Registered Nurse"
+        } ],
+        "member": {
+          "reference": "Practitioner/cc-prac-smith-julie"
+        }
+      }, {
+        "role": [ {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "62247001",
+            "display": "Family medicine specialist"
+          } ],
+          "text": "Family Medicine Physician"
+        } ],
+        "member": {
+          "reference": "Practitioner/cc-prac-carlson-john"
+        }
+      }, {
+        "role": [ {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "11911009",
+            "display": "Nephrologist"
+          } ],
+          "text": "Nephrologist"
+        } ],
+        "member": {
+          "reference": "Practitioner/cc-prac-jones-vince"
+        }
+      }, {
+        "role": [ {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "159033005",
+            "display": "Dietician"
+          } ],
+          "text": "Dietician"
+        } ],
+        "member": {
+          "reference": "Practitioner/cc-prac-gonzalez-maria"
+        }
+      }, {
+        "role": [ {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "106328005",
+            "display": "Social worker"
+          } ],
+          "text": "Renal Social Worker"
+        } ],
+        "member": {
+          "reference": "Practitioner/cc-prac-johnson-sam"
+        }
+      }, {
+        "role": [ {
+          "coding": [ {
+            "system": "http://snomed.info/sct",
+            "code": "159011008",
+            "display": "Retail pharmacist"
+          } ],
+          "text": "Community Pharmacist"
+        } ],
+        "member": {
+          "reference": "Practitioner/cc-prac-walkowski-ellen"
+        }
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  } ]
+}

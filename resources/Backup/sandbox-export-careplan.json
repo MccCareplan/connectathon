@@ -1,0 +1,506 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    [
+      {
+        "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/data/CarePlan/cc-careplan-betsy-ckd",
+        "resource": {
+          "resourceType": "CarePlan",
+          "id": "cc-careplan-betsy-ckd",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2020-04-08T20:25:51.000+00:00",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/CarePlan"
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Betsy's CKD care plan</div>"
+          },
+          "status": "active",
+          "intent": "plan",
+          "title": "CKD Care Plan",
+          "description": "Care plan to slow progression of CKD and Type 2 Diabetes.",
+          "subject": {
+            "reference": "Patient/cc-pat-betsy"
+          },
+          "period": {
+            "start": "2018-06-01"
+          },
+          "author": {
+            "reference": "Practitioner/cc-prac-jones-vince",
+            "display": "Dr. Vince Jones, MD"
+          },
+          "careTeam": [
+            {
+              "reference": "CareTeam/cc-team-betsy"
+            }
+          ],
+          "addresses": [
+            {
+              "reference": "Condition/cc-cond-betsy-diabetes"
+            },
+            {
+              "reference": "Condition/cc-cond-betsy-ckd"
+            }
+          ],
+          "goal": [
+            {
+              "reference": "Goal/cc-goal-betsy-bp-systolic"
+            },
+            {
+              "reference": "Goal/cc-goal-betsy-lab-phos"
+            },
+            {
+              "reference": "Goal/cc-goal-betsy-a1c"
+            }
+          ],
+          "activity": [
+            {
+              "reference": {
+                "reference": "ServiceRequest/cc-service-betsy-edu-ckd"
+              }
+            },
+            {
+              "reference": {
+                "reference": "ServiceRequest/cc-service-betsy-edu-diet"
+              }
+            },
+            {
+              "reference": {
+                "reference": "ServiceRequest/cc-service-betsy-exercise"
+              }
+            },
+            {
+              "reference": {
+                "reference": "ServiceRequest/cc-service-betsy-steps"
+              }
+            },
+            {
+              "reference": {
+                "reference": "MedicationRequest/cc-med-betsy-vitamin-d"
+              }
+            },
+            {
+              "reference": {
+                "reference": "MedicationRequest/cc-med-betsy-insulin"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/data/CarePlan/cc-careplan-betsy-personal",
+        "resource": {
+          "resourceType": "CarePlan",
+          "id": "cc-careplan-betsy-personal",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2020-04-08T20:25:51.000+00:00",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/CarePlan"
+            ]
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Betsy's personal care plan</div>"
+          },
+          "status": "active",
+          "intent": "plan",
+          "title": "Personal Care Plan",
+          "description": "Plan for Betsy's self-care at home.",
+          "subject": {
+            "reference": "Patient/cc-pat-betsy"
+          },
+          "period": {
+            "start": "2019-01-01",
+            "end": "2019-12-31"
+          },
+          "author": {
+            "reference": "Practitioner/cc-prac-carlson-john",
+            "display": "Dr. John Carlson, MD"
+          },
+          "careTeam": [
+            {
+              "reference": "CareTeam/cc-team-betsy-support"
+            }
+          ],
+          "addresses": [
+            {
+              "reference": "Condition/cc-cond-betsy-diabetes"
+            },
+            {
+              "reference": "Condition/cc-cond-betsy-depression"
+            },
+            {
+              "reference": "Condition/cc-cond-betsy-transportation"
+            }
+          ],
+          "goal": [
+            {
+              "reference": "Goal/cc-goal-betsy-exercise"
+            }
+          ],
+          "activity": [
+            {
+              "detail": {
+                "kind": "ServiceRequest",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "29463-7",
+                      "display": "Body weight"
+                    }
+                  ]
+                },
+                "status": "in-progress",
+                "scheduledTiming": {
+                  "repeat": {
+                    "boundsPeriod": {
+                      "start": "2018-08-30",
+                      "end": "2019-12-31"
+                    },
+                    "frequency": 1,
+                    "period": 1,
+                    "periodUnit": "d"
+                  }
+                },
+                "performer": [
+                  {
+                    "reference": "Patient/cc-pat-betsy"
+                  }
+                ],
+                "description": "Record your weight each morning before breakfast."
+              }
+            },
+            {
+              "detail": {
+                "kind": "ServiceRequest",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "55284-4",
+                      "display": "Blood pressure systolic and diastolic"
+                    }
+                  ]
+                },
+                "status": "in-progress",
+                "scheduledTiming": {
+                  "repeat": {
+                    "boundsPeriod": {
+                      "start": "2018-08-30",
+                      "end": "2019-12-31"
+                    },
+                    "frequency": 2,
+                    "period": 1,
+                    "periodUnit": "d"
+                  }
+                },
+                "performer": [
+                  {
+                    "reference": "Patient/cc-pat-betsy"
+                  }
+                ],
+                "description": "Record your blood pressure twice per day, morning and evening."
+              }
+            },
+            {
+              "detail": {
+                "kind": "ServiceRequest",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "2339-0",
+                      "display": "Glucose [Mass/volume] in Blood"
+                    }
+                  ]
+                },
+                "status": "in-progress",
+                "scheduledTiming": {
+                  "repeat": {
+                    "boundsPeriod": {
+                      "start": "2018-08-30",
+                      "end": "2019-12-31"
+                    },
+                    "frequency": 2,
+                    "period": 1,
+                    "periodUnit": "d"
+                  }
+                },
+                "performer": [
+                  {
+                    "reference": "Patient/cc-pat-betsy"
+                  }
+                ],
+                "description": "Record your blood glucose twice per day, after breakfast and dinner."
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/data/CarePlan/cc-careplan-pnoelle-ckd",
+        "resource": {
+          "resourceType": "CarePlan",
+          "id": "cc-careplan-pnoelle-ckd",
+          "meta": {
+            "versionId": "11",
+            "lastUpdated": "2020-09-11T14:28:45.000+00:00",
+            "source": "#Rv0cJmhd7vr9J2KZ"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Pat's CKD care plan</div>"
+          },
+          "status": "active",
+          "intent": "plan",
+          "title": "CKD Care Plan",
+          "description": "Care plan to slow progression of CKD and Type 2 Diabetes.",
+          "subject": {
+            "reference": "Patient/cc-pat-pnoelle"
+          },
+          "period": {
+            "start": "2018-06-01"
+          },
+          "author": {
+            "reference": "Practitioner/cc-prac-jones-vince",
+            "display": "Dr. Vince Jones, MD"
+          },
+          "careTeam": [
+            {
+              "reference": "CareTeam/cc-team-pnoelle"
+            }
+          ],
+          "addresses": [
+            {
+              "reference": "Condition/cc-cond-pnoelle-diabetes"
+            },
+            {
+              "reference": "Condition/cc-cond-pnoelle-ckd"
+            }
+          ],
+          "goal": [
+            {
+              "reference": "Goal/cc-goal-pnoelle-bp-systolic"
+            },
+            {
+              "reference": "Goal/cc-goal-pnoelle-lab-phos"
+            },
+            {
+              "reference": "Goal/cc-goal-pnoelle-a1c"
+            }
+          ],
+          "activity": [
+            {
+              "reference": {
+                "reference": "ServiceRequest/cc-service-pnoelle-edu-ckd"
+              }
+            },
+            {
+              "reference": {
+                "reference": "ServiceRequest/cc-service-pnoelle-edu-diet"
+              }
+            },
+            {
+              "reference": {
+                "reference": "ServiceRequest/cc-service-pnoelle-exercise"
+              }
+            },
+            {
+              "reference": {
+                "reference": "ServiceRequest/cc-BSeR-pnoelle-wgt"
+              }
+            },
+            {
+              "reference": {
+                "reference": "ServiceRequest/cc-service-pnoelle-steps"
+              }
+            },
+            {
+              "reference": {
+                "reference": "MedicationRequest/cc-MedicationRequest-pnoelle-PB"
+              }
+            },
+            {
+              "reference": {
+                "reference": "MedicationRequest/cc-med-pnoelle-vitamin-d"
+              }
+            },
+            {
+              "reference": {
+                "reference": "MedicationRequest/cc-med-pnoelle-insulin"
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      },
+      {
+        "fullUrl": "https://api.logicahealth.org/MCCeCarePlanTest/data/CarePlan/cc-careplan-pnoelle-personal",
+        "resource": {
+          "resourceType": "CarePlan",
+          "id": "cc-careplan-pnoelle-personal",
+          "meta": {
+            "versionId": "1",
+            "lastUpdated": "2020-08-31T21:42:34.000+00:00",
+            "source": "#LjvmFBbpiZAPo7Hf"
+          },
+          "text": {
+            "status": "generated",
+            "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Pat's personal care plan</div>"
+          },
+          "status": "active",
+          "intent": "plan",
+          "title": "Personal Care Plan",
+          "description": "Plan for Pat's self-care at home.",
+          "subject": {
+            "reference": "Patient/cc-pat-pnoelle"
+          },
+          "period": {
+            "start": "2019-01-01",
+            "end": "2019-12-31"
+          },
+          "author": {
+            "reference": "Practitioner/cc-prac-carlson-john",
+            "display": "Dr. John Carlson, MD"
+          },
+          "careTeam": [
+            {
+              "reference": "CareTeam/cc-team-pnoelle-support"
+            }
+          ],
+          "addresses": [
+            {
+              "reference": "Condition/cc-cond-pnoelle-diabetes"
+            },
+            {
+              "reference": "Condition/cc-cond-pnoelle-depression"
+            },
+            {
+              "reference": "Condition/cc-cond-pnoelle-transportation"
+            }
+          ],
+          "goal": [
+            {
+              "reference": "Goal/cc-goal-pnoelle-exercise"
+            }
+          ],
+          "activity": [
+            {
+              "detail": {
+                "kind": "ServiceRequest",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "29463-7",
+                      "display": "Body weight"
+                    }
+                  ]
+                },
+                "status": "in-progress",
+                "scheduledTiming": {
+                  "repeat": {
+                    "boundsPeriod": {
+                      "start": "2018-08-30",
+                      "end": "2019-12-31"
+                    },
+                    "frequency": 1,
+                    "period": 1,
+                    "periodUnit": "d"
+                  }
+                },
+                "performer": [
+                  {
+                    "reference": "Patient/cc-pat-pnoelle"
+                  }
+                ],
+                "description": "Record your weight each morning before breakfast."
+              }
+            },
+            {
+              "detail": {
+                "kind": "ServiceRequest",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "55284-4",
+                      "display": "Blood pressure systolic and diastolic"
+                    }
+                  ]
+                },
+                "status": "in-progress",
+                "scheduledTiming": {
+                  "repeat": {
+                    "boundsPeriod": {
+                      "start": "2018-08-30",
+                      "end": "2019-12-31"
+                    },
+                    "frequency": 2,
+                    "period": 1,
+                    "periodUnit": "d"
+                  }
+                },
+                "performer": [
+                  {
+                    "reference": "Patient/cc-pat-pnoelle"
+                  }
+                ],
+                "description": "Record your blood pressure twice per day, morning and evening."
+              }
+            },
+            {
+              "detail": {
+                "kind": "ServiceRequest",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://loinc.org",
+                      "code": "2339-0",
+                      "display": "Glucose [Mass/volume] in Blood"
+                    }
+                  ]
+                },
+                "status": "in-progress",
+                "scheduledTiming": {
+                  "repeat": {
+                    "boundsPeriod": {
+                      "start": "2018-08-30",
+                      "end": "2019-12-31"
+                    },
+                    "frequency": 2,
+                    "period": 1,
+                    "periodUnit": "d"
+                  }
+                },
+                "performer": [
+                  {
+                    "reference": "Patient/cc-pat-pnoelle"
+                  }
+                ],
+                "description": "Record your blood glucose twice per day, after breakfast and dinner."
+              }
+            }
+          ]
+        },
+        "search": {
+          "mode": "match"
+        }
+      }
+    ]
+  ]
+}
